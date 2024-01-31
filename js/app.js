@@ -1,7 +1,6 @@
 //masukkan API Ke dalam variabel
 
-const  weatherAPI =
-"http://api.weatherapi.com/v1/current.json?key=3a2018f4c9654c8b9b434650243101&q&aqi=no";
+const  weatherAPI ="http://api.weatherapi.com/v1/current.json?key=3a2018f4c9654c8b9b434650243101&q&aqi=no";
 
 //Ambil element html dengan menggunakan DOM selector
 const keyword = document.querySelector(".keyword");
@@ -57,7 +56,7 @@ function showElement (data)
   return `<h3>${data.location.name}, ${data.location.region}, ${data.location.country}</h3>
   <div class="box">
       <img src="https:${data.current.condition.icon}" alt="">
-      <h1>${data.current.temp_c}°C</h1>
+      <h1 style="color: black">${data.current.temp_c}°C</h1>
       </div>
       <p>${data.current.last_updated}</p>
       <p>${data.current.condition.text}</p>`
