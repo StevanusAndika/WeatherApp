@@ -34,7 +34,7 @@ tombolCari.onclick = () => {
     // Periksa apakah huruf pertama merupakan x, y, atau z
     if (['x', 'y', 'z'].includes(keyword.value[0].toLowerCase())) {
         // Tampilkan alert jika huruf pertama adalah x, y, atau z
-        alert("City names starting with 'x', 'y', or 'z' are not allowed.");
+        alert("City names starting with 'x', 'y', or 'z' is not available.");
         return; // Hentikan eksekusi fungsi
     }
 
