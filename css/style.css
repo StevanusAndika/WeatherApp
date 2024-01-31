@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Body styling with background image */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    background: url('/img/weather-cold.jpg') center center fixed;
+    background-size: cover;
+    
+   
+}
+
+
+/* h1 style */
+h1 {
+    text-align: center;
+    color: #fff; 
+    margin-top: 50px; 
+}
+
+/* Container style */
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.keyword {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.keyword::placeholder {
+    font-weight: bold;
+}
+
+
+.btn-search {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .keyword {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+/* Container id style */
+#container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9); /*  */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
