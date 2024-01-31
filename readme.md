@@ -12,7 +12,7 @@ Projek ini menggunakan weatherapi untuk menyediakan informasi cuaca yang akurat 
 
 1. **Persiapkan API Key**
    - Dapatkan kunci API dari [weatherapi](https://www.weatherapi.com/docs/).
-   - Tempelkan kunci API di file `config.js`.
+   - Tempelkan kunci API di file `app.js`.
 
 ```javascript
 // app.js
